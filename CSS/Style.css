@@ -1,0 +1,12 @@
+body{
+    background-image:url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+#fondo{
+    top: 0;
+    position: relative;
+    z-index: 0;
+    size-adjust: 100vw;
+}
