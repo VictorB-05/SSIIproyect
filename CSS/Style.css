@@ -5,22 +5,23 @@ body{
     background-attachment: fixed;
 }
 #principal{
-    top: 0;
+    top: 5em;
     position: relative;
     z-index: 0;
     width: 100%;
     height: 100vw;
 }
 #texto{
+    font-family: 'Nova Square', sans-serif;
     border-radius: 1em;
-    background:rgba(0, 0, 0, 0.4); 
+    background:rgba(0, 0, 0, 0.601); 
     opacity: 0.8;
     padding: 1ex; 
     margin-left: 20vw;
     margin-right: 20vw;
 }
 .texto{
-    font-family: texto;
+    font-family: 'Nova Square', sans-serif;
     color: #00e5e5;
     font-size: 1.5em;
 }
@@ -37,4 +38,22 @@ body{
 @font-face {
     font-family: texto;
     src: url(../fonts/Android\ Italic.ttf);
+}
+#gifs{
+    float: left;
+    opacity: 200%;
+    margin-top:0 ;
+    margin-left: 3em;
+    width: 15%;
+}
+#gifs img{
+    width: 100%;
+}
+#recorte{
+    float: right;
+    margin-right: 3em;
+    overflow: hidden;
+    width: 20em;
+    border-radius: 10px;
+    height: auto;
 }
