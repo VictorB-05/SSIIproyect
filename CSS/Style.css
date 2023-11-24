@@ -1,12 +1,29 @@
 body{
     background-image:url(../img/fondo.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100vw;
     background-attachment: fixed;
 }
-#fondo{
+#principal{
     top: 0;
     position: relative;
     z-index: 0;
-    size-adjust: 100vw;
+    width: 100%;
+    height: 100vw;
+}
+#texto{
+    border-radius: 1em;
+    background:rgba(0, 0, 0, 0.4); 
+    opacity: 0.8;
+    padding: 10px; 
+    margin: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.texto{
+    color: #BF00FF;
+}
+.Titulo{
+    text-align: center;
+    color: rgb(191, 152, 227);
 }
