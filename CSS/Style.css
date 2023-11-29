@@ -52,9 +52,9 @@ body{
 }
 #recorte{
     float: right;
-    margin-right: 3em;
+    margin-right: 0;
     overflow: hidden;
-    width: 20em;
+    width: 28em;
     border-radius: 10px;
     height: auto;
 }
@@ -96,4 +96,7 @@ a:hover{
 }
 #you{
     text-align: center;
+}
+#pin{
+    width: 100%;
 }
